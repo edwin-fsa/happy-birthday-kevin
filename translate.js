@@ -6,7 +6,7 @@ export const translate = async (target = "en") => {
     {
       method: "POST",
       body: JSON.stringify({
-        q: "Happy Birthday, Lucy",
+        q: "Happy Birthday, Kevin",
         source: "en",
         target: target,
         api_key: process.env.API_KEY,
